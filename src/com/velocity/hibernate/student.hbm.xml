@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.velocity.hibernate.Student" table="student_info">
+<id name="id">
+<generator class="identity" />
+</id>
+<property name="firstName" column="first" />
+<property name="lastName" column="second" />
+</class>
+</hibernate-mapping>
